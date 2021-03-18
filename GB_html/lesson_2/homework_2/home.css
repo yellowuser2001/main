@@ -8,3 +8,9 @@ a {
     list-style-type: none; 
 
 }
+
+.list {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(243, 158, 232);
+}

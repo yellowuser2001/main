@@ -1,5 +1,10 @@
 a {
     font-size: 15px;
-    color: darkviolet;
-    
+    color: rgb(235, 15, 15);
+     
+}
+
+.menu li {
+    list-style-type: none; 
+
 }

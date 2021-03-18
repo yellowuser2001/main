@@ -1,6 +1,6 @@
 a {
     font-size: 15px;
-    color: rgb(235, 15, 15);
+    color: rgb(102, 202, 209);
      
 }
 
@@ -13,4 +13,17 @@ a {
     font-size: 18px;
     font-weight: 400;
     background-color: rgb(243, 158, 232);
+}
+
+img {
+    border: 4px solid #f7c846;
+   }
+
+.input {
+    color: rgb(121, 123, 238);
+}
+
+.bg {
+    background: url(../homework_2/img/2641051.gif) no-repeat;
+    background-size: cover;
 }

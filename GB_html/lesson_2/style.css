@@ -1,0 +1,57 @@
+.heading {
+    color: rgb(196, 4, 196);
+    background-color: rgb(189, 178, 178);
+    border: 3px solid black;
+    text-align: center;
+}
+
+
+.blue {
+    color: rgb(25, 226, 183);
+}
+
+.list {
+    list-style-type: none; 
+
+}
+
+.list li {
+    width: 70px;
+    height: 25px;
+    border: 1px solid #000;
+}
+
+.list + p {
+    color: rgb(0, 183, 255);
+}
+
+li {
+    width: 30px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-size: 15px;
+}
+
+
+h1,
+h3,
+p {
+    text-align: center;
+}
+
+.menu li {
+    height: 100px;
+}
+
+li {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000;
+}

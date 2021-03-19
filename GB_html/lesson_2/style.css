@@ -12,13 +12,22 @@
 
 .list {
     list-style-type: none; 
-
 }
 
-.list li {
-    width: 70px;
-    height: 25px;
-    border: 1px solid #000;
+.list li::after {
+    content: "new";
+    color: rgb(16, 247, 74);
+    text-transform: uppercase;
+}
+
+.menu li:hover::after {
+    content: "**";
+    color: dodgerblue;
+}
+
+.text::first-letter {
+    font-size: 30px;
+    color: green;
 }
 
 .list + p {
@@ -56,13 +65,15 @@ p {
     border-bottom-right-radius: 10px;
 }
 
-
+.menu li:nth-child(2n-1) {
+    background-color: antiquewhite;
+}
 
 .menu li {
     width: 100px;
     height: 30px;
     list-style-type: none;
-    border: 1px solid #000;
+    border: 1px solid rgb(209, 95, 95);
     text-align: center;
 }
 
@@ -74,8 +85,3 @@ p {
     color: green;
 }
 
-li {
-    width: 100px;
-    height: 30px;
-    border: 1px solid #000;
-}

@@ -46,8 +46,32 @@ p {
     text-align: center;
 }
 
+.menu li:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.menu li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
 .menu li {
-    height: 100px;
+    width: 100px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.menu li a:hover {
+    color:rgb(238, 67, 101);
+}
+
+.menu li a:active {
+    color: green;
 }
 
 li {

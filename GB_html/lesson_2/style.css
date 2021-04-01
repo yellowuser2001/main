@@ -44,11 +44,6 @@ li {
     
 }
 
-p {
-    font-size: 15px;
-}
-
-
 h1,
 h3,
 p {
@@ -84,4 +79,13 @@ p {
 .menu li a:active {
     color: green;
 }
+ 
+table {
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+}
 
+td {
+    border: 1px solid #000;
+}
